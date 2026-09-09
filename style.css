@@ -11,7 +11,6 @@ body {
   line-height: 1.5;
 }
 
-/* ===== HEADER ===== */
 header {
   display: flex;
   align-items: center;
@@ -84,7 +83,7 @@ nav a.active::after {
   padding-right: 24px;
 }
 
-/* ===== HERO ===== */
+
 .hero {
   display: flex;
   align-items: center;
@@ -118,7 +117,6 @@ nav a.active::after {
   max-width: 460px;
 }
 
-/* Dispatch box */
 .dispatch-box {
   border: 2px solid #C4C6CE;
   padding-top: 17.11px;
@@ -153,7 +151,6 @@ nav a.active::after {
   font-style: bold;
 }
 
-/* Buttons */
 .btn-group {
   display: flex;
   gap: 14px;
@@ -195,7 +192,6 @@ nav a.active::after {
   border-radius: 2px;
 }
 
-/* Trust badges */
 .badges {
   display: flex;
   gap: 16px;
@@ -219,7 +215,6 @@ nav a.active::after {
   fill: #002B0C;
 }
 
-/* ===== RIGHT IMAGE SIDE ===== */
 .hero-right {
   flex: 1.1;
   position: relative;
@@ -288,7 +283,7 @@ vertical-align: middle;
   fill: #FFFFFF;
 }
 
-/* Responsive */
+
 @media (max-width: 980px) {
   header {
     padding: 16px 24px;
@@ -317,7 +312,7 @@ vertical-align: middle;
     max-width: 100%;
   }
 }
-/* Container Layout Setup */
+
 .industrial-trade-container {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   box-sizing: border-box;
@@ -337,7 +332,7 @@ vertical-align: middle;
   box-sizing: inherit;
 }
 
-/* Core Services Header */
+
 .services-section {
   margin-bottom: 60px;
 }
@@ -355,7 +350,7 @@ vertical-align: middle;
   padding-bottom: 12px;
 }
 
-/* Services Grid and Cards */
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -408,7 +403,6 @@ vertical-align: middle;
   border-bottom-color: #4a5568;
 }
 
-/* Emergency Card Overrides */
 .services-grid .alert-card {
   border-color: #cbd5e1;
 }
@@ -425,7 +419,6 @@ vertical-align: middle;
   border-bottom-color: #e53e3e;
 }
 
-/* Footer & Navigation Panel */
 .footer-navigation {
   background-color: #000F22;
   color: #ffffff;
@@ -456,7 +449,7 @@ vertical-align: middle;
   margin: 0;
 }
 
-/* Links Layout */
+
 .footer-links-group {
   display: flex;
   flex-wrap: wrap;
@@ -497,7 +490,7 @@ vertical-align: middle;
   color: #cbd5e0;
 }
 
-/* Dispatch Block */
+
 .dispatch-column {
   margin-left: auto;
 }
@@ -512,7 +505,6 @@ vertical-align: middle;
   margin-top: 5px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .footer-navigation {
     flex-direction: column;
