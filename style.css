@@ -270,14 +270,16 @@ vertical-align: middle;
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: #FFFFFF;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   background-color: #002B0C;
   font-family: Inter;
   vertical-align: middle;
+  font-style: regular;
+  line-height: 20px;
 }
 
 .status-available svg {
